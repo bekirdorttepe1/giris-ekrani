@@ -1,0 +1,68 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.container {
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-70%);
+    -webkit-transform: translate(-50%,-70%);
+    -moz-transform: translate(-50%,-70%);
+    -ms-transform: translate(-50%,-70%);
+    -o-transform: translate(-50%,-70%);
+}
+
+.container h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    padding: 13px;
+    border-bottom: 6px solid #4caf50;
+    float: left;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0px;
+    margin: 8px 0px;
+    border-bottom: 1px solid #4caf50;
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    width: 80%;
+    color: white;
+    font-size: 18px;
+    background: none;
+    float: left;
+    margin: 0 10px;
+}
+
+.textbox i {
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    border: 2px solid #4caf50;
+    font-size: 18px;
+    background: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin: 12px 0;
+}
